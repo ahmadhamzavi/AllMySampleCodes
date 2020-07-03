@@ -1,0 +1,24 @@
+<template>
+  <div class="card">
+    <div t="applicant_list" class="card-header text-white bg-primary">
+      Applicant List
+    </div>
+    <div class="card-body">
+      <div class="applicant-list">
+        <div class="list-group">
+        <a class="list-group-item list-group-item-action ${0 === selectedId ? 'active' : ''}"
+          route-href="route: applicants; params.bind: {id:0}"
+          click.delegate="select(0)">
+          <strong t="new_applicant">New Applicant</strong><br>
+        </a>
+          <a repeat.for="applicant of applicants"
+            class="list-group-item list-group-item-action ${applicant.id === $parent.selectedId ? 'active' : ''}"
+            route-href="route: applicants; params.bind: {id:applicant.id}"
+            click.delegate="$parent.select(applicant.id)">
+            <strong>${applicant.name} ${applicant.familyName}</strong><br>
+            <small>${applicant.eMailAddress}</small>
+          </a>
+        </div>
+      </div>
+    </div>
+</template>

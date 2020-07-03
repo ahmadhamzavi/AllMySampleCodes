@@ -1,0 +1,14 @@
+<template>
+  <ux-dialog>
+    <ux-dialog-body show.bind="isError">
+      <div class="error" repeat.for="errorMessage of errorMessages">${errorMessage.errorMessage}</div>
+    </ux-dialog-body>
+    <ux-dialog-body show.bind="!isError">
+      <div class="success">Success</div>
+    </ux-dialog-body>
+
+    <ux-dialog-footer>
+      <button t="ok" click.trigger="controller.ok()">Ok</button>
+    </ux-dialog-footer>
+  </ux-dialog>
+</template>

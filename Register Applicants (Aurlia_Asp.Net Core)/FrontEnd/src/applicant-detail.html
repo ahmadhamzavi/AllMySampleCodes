@@ -1,0 +1,65 @@
+<template>
+  <div class="card">
+    <div  class="card-header text-white bg-primary">
+      ${full_name}
+    </div>
+
+    <div class="card-body">
+      <form role="form" ref="form">  
+        <div class="form-group row" validation-errors.bind="nameErrors"  >
+          <label class="col-md-3 col-form-label">${'name' & t} :</label>
+          <div class="col-md-9">
+            <input type="text"  class="form-control" value.bind="applicant.name & validate">
+          </div>
+        </div>
+
+        <div class="form-group row" validation-errors.bind="familyNameErrors" >
+          <label class="col-md-3 col-form-label">${'familyName' & t} :</label>
+          <div class="col-md-9">
+            <input type="text"  class="form-control" value.bind="applicant.familyName & validate">
+          </div>
+        </div>
+
+        <div class="form-group row" validation-errors.bind="emailErrors" >
+          <label  class="col-md-3 col-form-label">${'eMailAddress' & t} :</label>
+          <div class="col-md-9">
+            <input type="text"   class="form-control"
+              value.bind="applicant.eMailAddress & validate">
+          </div>
+        </div>
+
+        <div class="form-group row" validation-errors.bind="addressErrors" >
+          <label  class="col-md-3 col-form-label">${'address' & t} :</label>
+          <div class="col-md-9">
+            <input type="text"  class="form-control"
+              value.bind="applicant.address & validate">
+          </div>
+        </div>
+        <div class="form-group row" validation-errors.bind="countryOfOrigignErrors" >
+          <label class="col-md-3 col-form-label">${'countryOfOrigign' & t} :</label>
+          <div class="col-md-9">
+            <input type="text"   class="form-control"
+              value.bind="applicant.countryOfOrigign & validate">
+          </div>
+        </div>
+        <div class="form-group row" validation-errors.bind="ageErrors">
+          <label  class="col-md-3 col-form-label">${'age' & t} :</label>
+          <div class="col-md-9">
+            <input type="number"   class="form-control" value.bind="applicant.age & validate">
+          </div>
+        </div>
+        <div class="form-group row" validation-errors.bind="hiredErrors">
+          <label  class="col-md-3 col-form-label">${'hired' & t} :</label>
+          <div class="col-md-9 float-left">
+            <input type="checkbox"   checked.bind="applicant.hired & validate">
+          </div>
+        </div>
+      </form>
+      <div>
+        <button class="btn btn-success " click.delegate="save()" disabled.bind="!canSave">${'save' & t}</button>
+        <button class="btn btn-warning " click.delegate="reset()" disabled.bind="!isResetActive">${'reset' & t}</button>
+        <button class="btn btn-danger " click.delegate="delete()" >${'delete' & t}</button>
+      </div>
+    </div>
+  </div>
+</template>

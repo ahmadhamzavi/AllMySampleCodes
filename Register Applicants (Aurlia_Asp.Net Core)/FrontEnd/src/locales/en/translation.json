@@ -1,0 +1,31 @@
+{
+  "name":"Name",
+  "name_error":"${errorMessages.required]",
+  "applicant":"Applicant",
+  "noSelect":"Please Select a Applicant.",
+  "applicant_list":"Applicant List",
+  "profile":"Profile",
+  "are_you_sure":"Are you sure?",
+  "server_not_connected":"Server not responde.",
+  "new_applicant":"New Applicant",
+  "cancel":"Cancel",
+  "ok":"Ok",
+  "delete":"Delete",
+  "retry":"Retry",
+  "familyName":"Family Name",
+  "age":"Age",
+  "countryOfRegion":"Country Of region",
+  "hired":"Hired",
+  "address":"Address",
+  "eMailAddress":"Email",
+  "save":"Save",
+  "reset":"Reset",
+  "errorMessages":{
+    "required":"${$displayName} is missing.",
+    "minLength":"${$displayName} must be at least ${$config.length} characters",
+    "email":"${$displayName} is not a valid email.",
+    "between":"${$displayName} must be between but not equal to ${$config.min} and ${$config.max}.",
+    "min":"${$displayName} must be at least ${$config.min}.",
+    "max":"${$displayName} must be at most ${$config.max}."
+  }
+}

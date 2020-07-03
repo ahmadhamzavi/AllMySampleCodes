@@ -1,0 +1,19 @@
+<template>
+  <require from="./styles.css"></require>
+  <require from="./applicant-list"></require>
+  <nav class="navbar navbar-light bg-light border-bottom fixed-top" role="navigation">
+    <a class="navbar-brand" href="#">
+      <i class="fa fa-user"></i>
+      <span t="applicant">Applicants</span>
+    </a>
+  </nav>
+  <loading-indicator loading.bind="router.isNavigating"></loading-indicator>
+  <div class="container-md">
+    <div class="row">
+      <applicant-list class="col-sm-5 col-md-4"></applicant-list>
+      <router-view class="col-sm-7 col-md-8"></router-view>
+    </div>
+  </div>
+</template>
+
+
