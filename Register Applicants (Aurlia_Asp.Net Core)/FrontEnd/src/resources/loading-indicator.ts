@@ -6,8 +6,7 @@ import 'nprogress/nprogress.css';
 export class LoadingIndicator {
   @bindable loading = false;
 
-  
-  (newValue) {
+  loadingChanged(newValue) {
     if (newValue) {
       nprogress.start();
     } else {
