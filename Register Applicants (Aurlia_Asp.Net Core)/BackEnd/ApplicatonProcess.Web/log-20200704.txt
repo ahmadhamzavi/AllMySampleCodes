@@ -1,0 +1,182 @@
+2020-07-04 16:26:27.989 +04:30 [Information] User profile is available. Using '"C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-04 16:26:28.294 +04:30 [Information] In Development.
+2020-07-04 16:26:28.681 +04:30 [Information] Application started. Press Ctrl+C to shut down.
+2020-07-04 16:26:28.681 +04:30 [Information] Hosting environment: "Development"
+2020-07-04 16:26:28.681 +04:30 [Information] Content root path: "C:\Users\Administrator\Desktop\Me\Hahn\Hahn.ApplicatonProcess.Application\ApplicatonProcess.Web"
+2020-07-04 16:26:28.761 +04:30 [Information] Request starting HTTP/2.0 GET https://localhost:44360/  
+2020-07-04 16:26:28.830 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.5315 ms
+2020-07-04 16:26:28.867 +04:30 [Information] Request finished in 107.6996ms 404 
+2020-07-04 16:28:29.230 +04:30 [Information] User profile is available. Using '"C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-04 16:28:29.381 +04:30 [Information] In Development.
+2020-07-04 16:28:29.561 +04:30 [Information] Application started. Press Ctrl+C to shut down.
+2020-07-04 16:28:29.562 +04:30 [Information] Hosting environment: "Development"
+2020-07-04 16:28:29.562 +04:30 [Information] Content root path: "C:\Users\Administrator\Desktop\Me\Hahn\Hahn.ApplicatonProcess.Application\ApplicatonProcess.Web"
+2020-07-04 16:28:29.609 +04:30 [Information] Request starting HTTP/2.0 GET https://localhost:44360/  
+2020-07-04 16:28:29.679 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.6095 ms
+2020-07-04 16:28:29.699 +04:30 [Information] Request finished in 92.9636ms 404 
+2020-07-04 16:29:36.159 +04:30 [Information] Request starting HTTP/2.0 GET https://localhost:44360/api/Applicant  
+2020-07-04 16:29:36.173 +04:30 [Information] CORS policy execution successful.
+2020-07-04 16:29:36.176 +04:30 [Information] Executing endpoint '"ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)"'
+2020-07-04 16:29:36.226 +04:30 [Information] Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[ApplicatonProcess.Domain.Applicant]] GetAll()" on controller "ApplicatonProcess.Web.ApplicantController" ("ApplicatonProcess.Web").
+2020-07-04 16:29:36.402 +04:30 [Information] Executing action method "ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)" - Validation state: Valid
+2020-07-04 16:29:36.728 +04:30 [Information] Entity Framework Core "3.1.4" initialized '"ApplicationDBContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Applications "
+2020-07-04 16:29:36.893 +04:30 [Information] Executed action method "ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 483.7018ms.
+2020-07-04 16:29:36.901 +04:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[ApplicatonProcess.Domain.Applicant, ApplicatonProcess.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-07-04 16:29:37.071 +04:30 [Information] Executed action "ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)" in 840.6153ms
+2020-07-04 16:29:37.072 +04:30 [Information] Executed endpoint '"ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)"'
+2020-07-04 16:29:37.074 +04:30 [Information] Request finished in 915.6411ms 200 application/json; charset=utf-8
+2020-07-04 16:30:33.521 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:33.552 +04:30 [Information] Request finished in 31.5586ms 307 
+2020-07-04 16:30:33.584 +04:30 [Information] Request starting HTTP/2.0 GET https://localhost:44360/  
+2020-07-04 16:30:33.586 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0302 ms
+2020-07-04 16:30:33.587 +04:30 [Information] Request finished in 2.6031ms 404 
+2020-07-04 16:30:43.420 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:43.423 +04:30 [Information] Request finished in 2.4342ms 307 
+2020-07-04 16:30:43.427 +04:30 [Information] Request starting HTTP/2.0 GET https://localhost:44360/  
+2020-07-04 16:30:43.428 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0235 ms
+2020-07-04 16:30:43.430 +04:30 [Information] Request finished in 2.3104ms 404 
+2020-07-04 16:30:55.901 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:55.905 +04:30 [Information] Request finished in 4.0917ms 307 
+2020-07-04 16:30:55.945 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:55.946 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0097 ms
+2020-07-04 16:30:55.946 +04:30 [Information] Request finished in 0.9891ms 404 
+2020-07-04 16:30:56.048 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:56.048 +04:30 [Information] Request finished in 0.4425ms 307 
+2020-07-04 16:30:56.049 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:56.049 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0048 ms
+2020-07-04 16:30:56.049 +04:30 [Information] Request finished in 0.7072ms 404 
+2020-07-04 16:30:56.153 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:56.154 +04:30 [Information] Request finished in 1.0802ms 307 
+2020-07-04 16:30:56.156 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:56.156 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0671 ms
+2020-07-04 16:30:56.157 +04:30 [Information] Request finished in 1.482ms 404 
+2020-07-04 16:30:56.271 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:56.273 +04:30 [Information] Request finished in 1.4976ms 307 
+2020-07-04 16:30:56.274 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:56.275 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0134 ms
+2020-07-04 16:30:56.275 +04:30 [Information] Request finished in 1.1547ms 404 
+2020-07-04 16:30:56.377 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:56.377 +04:30 [Information] Request finished in 0.6689ms 307 
+2020-07-04 16:30:56.379 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:56.381 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0103 ms
+2020-07-04 16:30:56.398 +04:30 [Information] Request finished in 18.9149ms 404 
+2020-07-04 16:30:56.500 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:56.501 +04:30 [Information] Request finished in 0.5001ms 307 
+2020-07-04 16:30:56.502 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:56.502 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0036 ms
+2020-07-04 16:30:56.503 +04:30 [Information] Request finished in 0.5972ms 404 
+2020-07-04 16:30:56.639 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:56.640 +04:30 [Information] Request finished in 0.9859ms 307 
+2020-07-04 16:30:56.641 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:56.642 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0188 ms
+2020-07-04 16:30:56.643 +04:30 [Information] Request finished in 1.7661ms 404 
+2020-07-04 16:30:56.748 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:56.750 +04:30 [Information] Request finished in 2.675ms 307 
+2020-07-04 16:30:56.754 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:56.755 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0633 ms
+2020-07-04 16:30:56.756 +04:30 [Information] Request finished in 2.4248ms 404 
+2020-07-04 16:30:56.875 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:56.878 +04:30 [Information] Request finished in 3.4913ms 307 
+2020-07-04 16:30:56.882 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:56.883 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0430 ms
+2020-07-04 16:30:56.885 +04:30 [Information] Request finished in 3.2266ms 404 
+2020-07-04 16:30:56.999 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:57.001 +04:30 [Information] Request finished in 2.1477ms 307 
+2020-07-04 16:30:57.004 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:57.006 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0440 ms
+2020-07-04 16:30:57.007 +04:30 [Information] Request finished in 3.3492ms 404 
+2020-07-04 16:30:57.122 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:57.122 +04:30 [Information] Request finished in 0.6516ms 307 
+2020-07-04 16:30:57.123 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:57.124 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0106 ms
+2020-07-04 16:30:57.124 +04:30 [Information] Request finished in 1.0718ms 404 
+2020-07-04 16:30:57.236 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:30:57.237 +04:30 [Information] Request finished in 1.4549ms 307 
+2020-07-04 16:30:57.239 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:30:57.240 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0582 ms
+2020-07-04 16:30:57.241 +04:30 [Information] Request finished in 1.7603ms 404 
+2020-07-04 16:31:19.479 +04:30 [Information] User profile is available. Using '"C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-04 16:31:19.570 +04:30 [Information] In Development.
+2020-07-04 16:31:19.663 +04:30 [Information] Application started. Press Ctrl+C to shut down.
+2020-07-04 16:31:19.663 +04:30 [Information] Hosting environment: "Development"
+2020-07-04 16:31:19.663 +04:30 [Information] Content root path: "C:\Users\Administrator\Desktop\Me\Hahn\Hahn.ApplicatonProcess.Application\ApplicatonProcess.Web"
+2020-07-04 16:31:19.682 +04:30 [Information] Request starting HTTP/2.0 GET https://localhost:44360/  
+2020-07-04 16:31:19.728 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.4786 ms
+2020-07-04 16:31:19.739 +04:30 [Information] Request finished in 59.5321ms 404 
+2020-07-04 16:31:44.433 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/api/Applicant  
+2020-07-04 16:31:44.440 +04:30 [Information] Request finished in 6.9708ms 307 
+2020-07-04 16:31:49.706 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/api/Applicant  
+2020-07-04 16:31:49.708 +04:30 [Information] Request finished in 1.7343ms 307 
+2020-07-04 16:31:50.671 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/api/Applicant  
+2020-07-04 16:31:50.673 +04:30 [Information] Request finished in 2.3173ms 307 
+2020-07-04 16:31:54.038 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/api/Applicant  
+2020-07-04 16:31:54.040 +04:30 [Information] Request finished in 1.7236ms 307 
+2020-07-04 16:32:04.677 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:32:04.679 +04:30 [Information] Request finished in 1.6226ms 307 
+2020-07-04 16:32:04.685 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:32:04.687 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0547 ms
+2020-07-04 16:32:04.688 +04:30 [Information] Request finished in 3.3404ms 404 
+2020-07-04 16:32:04.791 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:32:04.792 +04:30 [Information] Request finished in 1.0252ms 307 
+2020-07-04 16:32:04.794 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:32:04.797 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0114 ms
+2020-07-04 16:32:04.797 +04:30 [Information] Request finished in 3.4247ms 404 
+2020-07-04 16:32:04.906 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:32:04.906 +04:30 [Information] Request finished in 0.6338ms 307 
+2020-07-04 16:32:04.908 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:32:04.909 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0354 ms
+2020-07-04 16:32:04.910 +04:30 [Information] Request finished in 2.2758ms 404 
+2020-07-04 16:32:05.012 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:32:05.013 +04:30 [Information] Request finished in 1.0585ms 307 
+2020-07-04 16:32:05.014 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:32:05.016 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0307 ms
+2020-07-04 16:32:05.017 +04:30 [Information] Request finished in 2.9698ms 404 
+2020-07-04 16:32:05.131 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:32:05.132 +04:30 [Information] Request finished in 0.6593ms 307 
+2020-07-04 16:32:05.132 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:32:05.133 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0159 ms
+2020-07-04 16:32:05.134 +04:30 [Information] Request finished in 1.4315ms 404 
+2020-07-04 16:32:05.247 +04:30 [Information] Request starting HTTP/1.1 GET http://localhost:6753/  
+2020-07-04 16:32:05.248 +04:30 [Information] Request finished in 1.1109ms 307 
+2020-07-04 16:32:05.249 +04:30 [Information] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-07-04 16:32:05.249 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.0058 ms
+2020-07-04 16:32:05.249 +04:30 [Information] Request finished in 0.4606ms 404 
+2020-07-04 16:33:22.681 +04:30 [Information] Request starting HTTP/2.0 GET https://localhost:44360/api/Applicant  
+2020-07-04 16:33:22.686 +04:30 [Information] CORS policy execution successful.
+2020-07-04 16:33:22.693 +04:30 [Information] Executing endpoint '"ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)"'
+2020-07-04 16:33:22.769 +04:30 [Information] Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[ApplicatonProcess.Domain.Applicant]] GetAll()" on controller "ApplicatonProcess.Web.ApplicantController" ("ApplicatonProcess.Web").
+2020-07-04 16:33:23.272 +04:30 [Information] Entity Framework Core "3.1.4" initialized '"ApplicationDBContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Applications "
+2020-07-04 16:33:23.431 +04:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[ApplicatonProcess.Domain.Applicant, ApplicatonProcess.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-07-04 16:33:23.547 +04:30 [Information] Executed action "ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)" in 768.3196ms
+2020-07-04 16:33:23.548 +04:30 [Information] Executed endpoint '"ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)"'
+2020-07-04 16:33:23.549 +04:30 [Information] Request finished in 868.037ms 200 application/json; charset=utf-8
+2020-07-04 16:34:15.901 +04:30 [Information] Request starting HTTP/2.0 GET https://localhost:44360/api/Applicant  
+2020-07-04 16:34:15.902 +04:30 [Information] CORS policy execution successful.
+2020-07-04 16:34:15.913 +04:30 [Information] Executing endpoint '"ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)"'
+2020-07-04 16:34:15.914 +04:30 [Information] Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[ApplicatonProcess.Domain.Applicant]] GetAll()" on controller "ApplicatonProcess.Web.ApplicantController" ("ApplicatonProcess.Web").
+2020-07-04 16:34:15.966 +04:30 [Information] Entity Framework Core "3.1.4" initialized '"ApplicationDBContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Applications "
+2020-07-04 16:34:15.968 +04:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[ApplicatonProcess.Domain.Applicant, ApplicatonProcess.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-07-04 16:34:15.969 +04:30 [Information] Executed action "ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)" in 54.3141ms
+2020-07-04 16:34:15.969 +04:30 [Information] Executed endpoint '"ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)"'
+2020-07-04 16:34:15.970 +04:30 [Information] Request finished in 69.3475ms 200 application/json; charset=utf-8
+2020-07-04 16:34:19.725 +04:30 [Information] Application is shutting down...
+2020-07-04 16:34:35.320 +04:30 [Information] User profile is available. Using '"C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-04 16:34:35.409 +04:30 [Information] In Development.
+2020-07-04 16:34:35.610 +04:30 [Information] Now listening on: "https://localhost:5001"
+2020-07-04 16:34:35.613 +04:30 [Information] Now listening on: "http://localhost:5000"
+2020-07-04 16:34:35.616 +04:30 [Information] Application started. Press Ctrl+C to shut down.
+2020-07-04 16:34:35.617 +04:30 [Information] Hosting environment: "Development"
+2020-07-04 16:34:35.618 +04:30 [Information] Content root path: "C:\Users\Administrator\Desktop\Me\Hahn\Hahn.ApplicatonProcess.Application\ApplicatonProcess.Web"
+2020-07-04 16:34:36.111 +04:30 [Information] Request starting HTTP/2 GET https://localhost:5001/  
+2020-07-04 16:34:36.181 +04:30 [Information] HTTP "GET" "/" responded 404 in 0.5767 ms
+2020-07-04 16:34:36.188 +04:30 [Information] Request finished in 82.5668ms 404 
+2020-07-04 16:35:12.331 +04:30 [Information] Request starting HTTP/2 GET https://localhost:5001/api/Applicant  
+2020-07-04 16:35:12.338 +04:30 [Information] CORS policy execution successful.
+2020-07-04 16:35:12.342 +04:30 [Information] Executing endpoint '"ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)"'
+2020-07-04 16:35:12.447 +04:30 [Information] Route matched with "{action = \"GetAll\", controller = \"Applicant\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[ApplicatonProcess.Domain.Applicant]] GetAll()" on controller "ApplicatonProcess.Web.ApplicantController" ("ApplicatonProcess.Web").
+2020-07-04 16:35:12.864 +04:30 [Information] Entity Framework Core "3.1.4" initialized '"ApplicationDBContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=Applications "
+2020-07-04 16:35:12.983 +04:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[ApplicatonProcess.Domain.Applicant, ApplicatonProcess.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-07-04 16:35:13.077 +04:30 [Information] Executed action "ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)" in 621.0817ms
+2020-07-04 16:35:13.084 +04:30 [Information] Executed endpoint '"ApplicatonProcess.Web.ApplicantController.GetAll (ApplicatonProcess.Web)"'
+2020-07-04 16:35:13.117 +04:30 [Information] Request finished in 787.4875ms 200 application/json; charset=utf-8
+2020-07-04 16:35:43.487 +04:30 [Information] Application is shutting down...
