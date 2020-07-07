@@ -8,3 +8,8 @@
 		+ [bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 		+ [nprogress](https://github.com/rstacruz/nprogress)
 	+ Back-End > [Asp.Net Core v3.1](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-3.1)
+		+ [Swashbuckle.AspNetCore]()
+		+ [Swagger](https://swagger.io/)
+		+ [EntityFrameworkCore.InMemory](https://docs.microsoft.com/en-us/ef/core/providers/in-memory/?tabs=dotnet-core-cli)
+		+ [serilog-sinks-rollingfile](https://github.com/serilog/serilog-sinks-rollingfile)
+		+ [FluentValidation](https://docs.fluentvalidation.net/en/latest/aspnet.html)
